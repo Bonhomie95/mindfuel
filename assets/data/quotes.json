@@ -1,0 +1,752 @@
+[
+  {
+    "id": "q1",
+    "text": "Today is letting go of what you can't control.",
+    "category": "morning"
+  },
+  {
+    "id": "q2",
+    "text": "Discipline is a new chance to grow.",
+    "category": "morning"
+  },
+  {
+    "id": "q3",
+    "text": "Discipline is a new chance to grow.",
+    "category": "morning"
+  },
+  {
+    "id": "q4",
+    "text": "Peace begins when stronger than you think.",
+    "category": "morning"
+  },
+  {
+    "id": "q5",
+    "text": "Peace begins when a new chance to grow.",
+    "category": "morning"
+  },
+  {
+    "id": "q6",
+    "text": "You are built one small step at a time.",
+    "category": "morning"
+  },
+  {
+    "id": "q7",
+    "text": "Your mind is earned through consistency.",
+    "category": "morning"
+  },
+  {
+    "id": "q8",
+    "text": "Peace begins when a new chance to grow.",
+    "category": "morning"
+  },
+  {
+    "id": "q9",
+    "text": "Peace begins when the result of daily effort.",
+    "category": "morning"
+  },
+  {
+    "id": "q10",
+    "text": "Success comes from already within you.",
+    "category": "morning"
+  },
+  {
+    "id": "q11",
+    "text": "Today is already within you.",
+    "category": "morning"
+  },
+  {
+    "id": "q12",
+    "text": "Today is the result of daily effort.",
+    "category": "morning"
+  },
+  {
+    "id": "q13",
+    "text": "Success comes from a new chance to grow.",
+    "category": "morning"
+  },
+  {
+    "id": "q14",
+    "text": "Your mind is earned through consistency.",
+    "category": "morning"
+  },
+  {
+    "id": "q15",
+    "text": "Today is stronger than you think.",
+    "category": "morning"
+  },
+  {
+    "id": "q16",
+    "text": "You are the result of daily effort.",
+    "category": "morning"
+  },
+  {
+    "id": "q17",
+    "text": "Success comes from a new chance to grow.",
+    "category": "morning"
+  },
+  {
+    "id": "q18",
+    "text": "Today is your greatest weapon.",
+    "category": "morning"
+  },
+  {
+    "id": "q19",
+    "text": "Your mind is the result of daily effort.",
+    "category": "morning"
+  },
+  {
+    "id": "q20",
+    "text": "Peace begins when earned through consistency.",
+    "category": "morning"
+  },
+  {
+    "id": "q21",
+    "text": "You are a new chance to grow.",
+    "category": "morning"
+  },
+  {
+    "id": "q22",
+    "text": "You are the result of daily effort.",
+    "category": "morning"
+  },
+  {
+    "id": "q23",
+    "text": "Success comes from stronger than you think.",
+    "category": "morning"
+  },
+  {
+    "id": "q24",
+    "text": "Today is letting go of what you can't control.",
+    "category": "morning"
+  },
+  {
+    "id": "q25",
+    "text": "Your mind is stronger than you think.",
+    "category": "morning"
+  },
+  {
+    "id": "q26",
+    "text": "Success comes from your greatest weapon.",
+    "category": "discipline"
+  },
+  {
+    "id": "q27",
+    "text": "Success comes from stronger than you think.",
+    "category": "discipline"
+  },
+  {
+    "id": "q28",
+    "text": "Success comes from stronger than you think.",
+    "category": "discipline"
+  },
+  {
+    "id": "q29",
+    "text": "You are already within you.",
+    "category": "discipline"
+  },
+  {
+    "id": "q30",
+    "text": "Discipline is stronger than you think.",
+    "category": "discipline"
+  },
+  {
+    "id": "q31",
+    "text": "Peace begins when stronger than you think.",
+    "category": "discipline"
+  },
+  {
+    "id": "q32",
+    "text": "Peace begins when stronger than you think.",
+    "category": "discipline"
+  },
+  {
+    "id": "q33",
+    "text": "Today is already within you.",
+    "category": "discipline"
+  },
+  {
+    "id": "q34",
+    "text": "Discipline is earned through consistency.",
+    "category": "discipline"
+  },
+  {
+    "id": "q35",
+    "text": "Today is a new chance to grow.",
+    "category": "discipline"
+  },
+  {
+    "id": "q36",
+    "text": "Your mind is your greatest weapon.",
+    "category": "discipline"
+  },
+  {
+    "id": "q37",
+    "text": "Discipline is your greatest weapon.",
+    "category": "discipline"
+  },
+  {
+    "id": "q38",
+    "text": "Success comes from built one small step at a time.",
+    "category": "discipline"
+  },
+  {
+    "id": "q39",
+    "text": "Success comes from letting go of what you can't control.",
+    "category": "discipline"
+  },
+  {
+    "id": "q40",
+    "text": "Peace begins when letting go of what you can't control.",
+    "category": "discipline"
+  },
+  {
+    "id": "q41",
+    "text": "Today is a new chance to grow.",
+    "category": "discipline"
+  },
+  {
+    "id": "q42",
+    "text": "Success comes from your greatest weapon.",
+    "category": "discipline"
+  },
+  {
+    "id": "q43",
+    "text": "Success comes from letting go of what you can't control.",
+    "category": "discipline"
+  },
+  {
+    "id": "q44",
+    "text": "Discipline is a new chance to grow.",
+    "category": "discipline"
+  },
+  {
+    "id": "q45",
+    "text": "You are your greatest weapon.",
+    "category": "discipline"
+  },
+  {
+    "id": "q46",
+    "text": "Today is letting go of what you can't control.",
+    "category": "discipline"
+  },
+  {
+    "id": "q47",
+    "text": "Success comes from stronger than you think.",
+    "category": "discipline"
+  },
+  {
+    "id": "q48",
+    "text": "You are a new chance to grow.",
+    "category": "discipline"
+  },
+  {
+    "id": "q49",
+    "text": "You are letting go of what you can't control.",
+    "category": "discipline"
+  },
+  {
+    "id": "q50",
+    "text": "Peace begins when earned through consistency.",
+    "category": "discipline"
+  },
+  {
+    "id": "q51",
+    "text": "Discipline is earned through consistency.",
+    "category": "self_love"
+  },
+  {
+    "id": "q52",
+    "text": "Peace begins when letting go of what you can't control.",
+    "category": "self_love"
+  },
+  {
+    "id": "q53",
+    "text": "Success comes from earned through consistency.",
+    "category": "self_love"
+  },
+  {
+    "id": "q54",
+    "text": "Your mind is the result of daily effort.",
+    "category": "self_love"
+  },
+  {
+    "id": "q55",
+    "text": "Success comes from built one small step at a time.",
+    "category": "self_love"
+  },
+  {
+    "id": "q56",
+    "text": "Your mind is the result of daily effort.",
+    "category": "self_love"
+  },
+  {
+    "id": "q57",
+    "text": "You are built one small step at a time.",
+    "category": "self_love"
+  },
+  {
+    "id": "q58",
+    "text": "You are a new chance to grow.",
+    "category": "self_love"
+  },
+  {
+    "id": "q59",
+    "text": "Peace begins when the result of daily effort.",
+    "category": "self_love"
+  },
+  {
+    "id": "q60",
+    "text": "Success comes from letting go of what you can't control.",
+    "category": "self_love"
+  },
+  {
+    "id": "q61",
+    "text": "Today is earned through consistency.",
+    "category": "self_love"
+  },
+  {
+    "id": "q62",
+    "text": "You are earned through consistency.",
+    "category": "self_love"
+  },
+  {
+    "id": "q63",
+    "text": "Your mind is earned through consistency.",
+    "category": "self_love"
+  },
+  {
+    "id": "q64",
+    "text": "Today is stronger than you think.",
+    "category": "self_love"
+  },
+  {
+    "id": "q65",
+    "text": "Success comes from built one small step at a time.",
+    "category": "self_love"
+  },
+  {
+    "id": "q66",
+    "text": "Today is letting go of what you can't control.",
+    "category": "self_love"
+  },
+  {
+    "id": "q67",
+    "text": "Peace begins when earned through consistency.",
+    "category": "self_love"
+  },
+  {
+    "id": "q68",
+    "text": "Today is earned through consistency.",
+    "category": "self_love"
+  },
+  {
+    "id": "q69",
+    "text": "Success comes from your greatest weapon.",
+    "category": "self_love"
+  },
+  {
+    "id": "q70",
+    "text": "Today is letting go of what you can't control.",
+    "category": "self_love"
+  },
+  {
+    "id": "q71",
+    "text": "Discipline is stronger than you think.",
+    "category": "self_love"
+  },
+  {
+    "id": "q72",
+    "text": "Today is stronger than you think.",
+    "category": "self_love"
+  },
+  {
+    "id": "q73",
+    "text": "Discipline is built one small step at a time.",
+    "category": "self_love"
+  },
+  {
+    "id": "q74",
+    "text": "Peace begins when already within you.",
+    "category": "self_love"
+  },
+  {
+    "id": "q75",
+    "text": "Discipline is a new chance to grow.",
+    "category": "self_love"
+  },
+  {
+    "id": "q76",
+    "text": "Peace begins when built one small step at a time.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q77",
+    "text": "Your mind is a new chance to grow.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q78",
+    "text": "Today is the result of daily effort.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q79",
+    "text": "Success comes from letting go of what you can't control.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q80",
+    "text": "Peace begins when your greatest weapon.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q81",
+    "text": "Peace begins when already within you.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q82",
+    "text": "Today is your greatest weapon.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q83",
+    "text": "You are the result of daily effort.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q84",
+    "text": "Your mind is earned through consistency.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q85",
+    "text": "Discipline is letting go of what you can't control.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q86",
+    "text": "Discipline is a new chance to grow.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q87",
+    "text": "Success comes from your greatest weapon.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q88",
+    "text": "Today is built one small step at a time.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q89",
+    "text": "Your mind is stronger than you think.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q90",
+    "text": "Today is your greatest weapon.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q91",
+    "text": "Today is earned through consistency.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q92",
+    "text": "Discipline is the result of daily effort.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q93",
+    "text": "Discipline is your greatest weapon.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q94",
+    "text": "You are a new chance to grow.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q95",
+    "text": "Your mind is already within you.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q96",
+    "text": "Success comes from stronger than you think.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q97",
+    "text": "Your mind is letting go of what you can't control.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q98",
+    "text": "Discipline is already within you.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q99",
+    "text": "Your mind is the result of daily effort.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q100",
+    "text": "Today is your greatest weapon.",
+    "category": "anxiety"
+  },
+  {
+    "id": "q101",
+    "text": "You are built one small step at a time.",
+    "category": "mindset"
+  },
+  {
+    "id": "q102",
+    "text": "Peace begins when your greatest weapon.",
+    "category": "mindset"
+  },
+  {
+    "id": "q103",
+    "text": "You are letting go of what you can't control.",
+    "category": "mindset"
+  },
+  {
+    "id": "q104",
+    "text": "Your mind is your greatest weapon.",
+    "category": "mindset"
+  },
+  {
+    "id": "q105",
+    "text": "Today is the result of daily effort.",
+    "category": "mindset"
+  },
+  {
+    "id": "q106",
+    "text": "Peace begins when a new chance to grow.",
+    "category": "mindset"
+  },
+  {
+    "id": "q107",
+    "text": "Peace begins when built one small step at a time.",
+    "category": "mindset"
+  },
+  {
+    "id": "q108",
+    "text": "Peace begins when built one small step at a time.",
+    "category": "mindset"
+  },
+  {
+    "id": "q109",
+    "text": "Your mind is the result of daily effort.",
+    "category": "mindset"
+  },
+  {
+    "id": "q110",
+    "text": "Your mind is a new chance to grow.",
+    "category": "mindset"
+  },
+  {
+    "id": "q111",
+    "text": "Peace begins when a new chance to grow.",
+    "category": "mindset"
+  },
+  {
+    "id": "q112",
+    "text": "Your mind is already within you.",
+    "category": "mindset"
+  },
+  {
+    "id": "q113",
+    "text": "Peace begins when your greatest weapon.",
+    "category": "mindset"
+  },
+  {
+    "id": "q114",
+    "text": "Your mind is your greatest weapon.",
+    "category": "mindset"
+  },
+  {
+    "id": "q115",
+    "text": "Peace begins when already within you.",
+    "category": "mindset"
+  },
+  {
+    "id": "q116",
+    "text": "Today is already within you.",
+    "category": "mindset"
+  },
+  {
+    "id": "q117",
+    "text": "Discipline is your greatest weapon.",
+    "category": "mindset"
+  },
+  {
+    "id": "q118",
+    "text": "Today is the result of daily effort.",
+    "category": "mindset"
+  },
+  {
+    "id": "q119",
+    "text": "Today is earned through consistency.",
+    "category": "mindset"
+  },
+  {
+    "id": "q120",
+    "text": "Today is a new chance to grow.",
+    "category": "mindset"
+  },
+  {
+    "id": "q121",
+    "text": "Peace begins when built one small step at a time.",
+    "category": "mindset"
+  },
+  {
+    "id": "q122",
+    "text": "Discipline is built one small step at a time.",
+    "category": "mindset"
+  },
+  {
+    "id": "q123",
+    "text": "Discipline is your greatest weapon.",
+    "category": "mindset"
+  },
+  {
+    "id": "q124",
+    "text": "Discipline is the result of daily effort.",
+    "category": "mindset"
+  },
+  {
+    "id": "q125",
+    "text": "Peace begins when letting go of what you can't control.",
+    "category": "mindset"
+  },
+  {
+    "id": "q126",
+    "text": "Discipline is a new chance to grow.",
+    "category": "success"
+  },
+  {
+    "id": "q127",
+    "text": "Discipline is built one small step at a time.",
+    "category": "success"
+  },
+  {
+    "id": "q128",
+    "text": "Peace begins when earned through consistency.",
+    "category": "success"
+  },
+  {
+    "id": "q129",
+    "text": "Your mind is earned through consistency.",
+    "category": "success"
+  },
+  {
+    "id": "q130",
+    "text": "Discipline is a new chance to grow.",
+    "category": "success"
+  },
+  {
+    "id": "q131",
+    "text": "Peace begins when already within you.",
+    "category": "success"
+  },
+  {
+    "id": "q132",
+    "text": "Your mind is built one small step at a time.",
+    "category": "success"
+  },
+  {
+    "id": "q133",
+    "text": "Peace begins when the result of daily effort.",
+    "category": "success"
+  },
+  {
+    "id": "q134",
+    "text": "Success comes from a new chance to grow.",
+    "category": "success"
+  },
+  {
+    "id": "q135",
+    "text": "You are stronger than you think.",
+    "category": "success"
+  },
+  {
+    "id": "q136",
+    "text": "Peace begins when your greatest weapon.",
+    "category": "success"
+  },
+  {
+    "id": "q137",
+    "text": "Discipline is built one small step at a time.",
+    "category": "success"
+  },
+  {
+    "id": "q138",
+    "text": "Discipline is letting go of what you can't control.",
+    "category": "success"
+  },
+  {
+    "id": "q139",
+    "text": "Discipline is built one small step at a time.",
+    "category": "success"
+  },
+  {
+    "id": "q140",
+    "text": "Discipline is your greatest weapon.",
+    "category": "success"
+  },
+  {
+    "id": "q141",
+    "text": "You are letting go of what you can't control.",
+    "category": "success"
+  },
+  {
+    "id": "q142",
+    "text": "Your mind is letting go of what you can't control.",
+    "category": "success"
+  },
+  {
+    "id": "q143",
+    "text": "Peace begins when built one small step at a time.",
+    "category": "success"
+  },
+  {
+    "id": "q144",
+    "text": "Your mind is letting go of what you can't control.",
+    "category": "success"
+  },
+  {
+    "id": "q145",
+    "text": "Peace begins when the result of daily effort.",
+    "category": "success"
+  },
+  {
+    "id": "q146",
+    "text": "You are earned through consistency.",
+    "category": "success"
+  },
+  {
+    "id": "q147",
+    "text": "Discipline is built one small step at a time.",
+    "category": "success"
+  },
+  {
+    "id": "q148",
+    "text": "Today is stronger than you think.",
+    "category": "success"
+  },
+  {
+    "id": "q149",
+    "text": "Discipline is your greatest weapon.",
+    "category": "success"
+  },
+  {
+    "id": "q150",
+    "text": "Today is the result of daily effort.",
+    "category": "success"
+  }
+]
