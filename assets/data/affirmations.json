@@ -1,22 +1,27 @@
 [
-  {
-    "id": "a1",
-    "text": "I am becoming stronger every day.",
-    "category": "self_love"
-  },
-  {
-    "id": "a2",
-    "text": "Peace flows through me with every breath.",
-    "category": "anxiety"
-  },
-  {
-    "id": "a3",
-    "text": "I am in control of my thoughts.",
-    "category": "mindset"
-  },
-  {
-    "id": "a4",
-    "text": "Everything is aligning in my favor.",
-    "category": "success"
-  }
+  { "id": "a001", "text": "I am worthy of love and belonging.", "category": "self_love" },
+  { "id": "a002", "text": "I choose peace over worry, right here, right now.", "category": "anxiety" },
+  { "id": "a003", "text": "I am capable of achieving everything I set my mind to.", "category": "success" },
+  { "id": "a004", "text": "My mind is calm, clear, and focused.", "category": "focus" },
+  { "id": "a005", "text": "I attract positive energy and release what no longer serves me.", "category": "mindfulness" },
+  { "id": "a006", "text": "I am deeply grateful for this moment and all it holds.", "category": "gratitude" },
+  { "id": "a007", "text": "Every day, I am becoming a stronger version of myself.", "category": "growth" },
+  { "id": "a008", "text": "I release what I cannot control and embrace what I can.", "category": "anxiety" },
+  { "id": "a009", "text": "I am strong enough to face today's challenges with grace.", "category": "resilience" },
+  { "id": "a010", "text": "I choose joy today. Happiness is a decision I make.", "category": "morning" },
+  { "id": "a011", "text": "My potential is unlimited. I can grow beyond my current limits.", "category": "growth" },
+  { "id": "a012", "text": "I am at peace with my past and excited for my future.", "category": "mindfulness" },
+  { "id": "a013", "text": "I deserve good things and I welcome them into my life.", "category": "self_love" },
+  { "id": "a014", "text": "I am brave enough to take the next step, even when afraid.", "category": "courage" },
+  { "id": "a015", "text": "Every breath fills me with calm, clarity, and confidence.", "category": "anxiety" },
+  { "id": "a016", "text": "I trust the process of my life completely.", "category": "purpose" },
+  { "id": "a017", "text": "I am exactly where I need to be at this moment.", "category": "mindfulness" },
+  { "id": "a018", "text": "I radiate confidence, love, and positive energy.", "category": "self_love" },
+  { "id": "a019", "text": "I am proud of how far I have come on my journey.", "category": "growth" },
+  { "id": "a020", "text": "I embrace change as an opportunity to grow and evolve.", "category": "resilience" },
+  { "id": "a021", "text": "I nourish my body and mind with patience and care.", "category": "health" },
+  { "id": "a022", "text": "I rise above every setback. I am resilient beyond measure.", "category": "resilience" },
+  { "id": "a023", "text": "I show up fully today — mind, body, and spirit aligned.", "category": "discipline" },
+  { "id": "a024", "text": "I am the author of my own story, and I write it with courage.", "category": "purpose" },
+  { "id": "a025", "text": "My creativity flows freely. I create with joy and ease.", "category": "creativity" }
 ]

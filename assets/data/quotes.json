@@ -1,752 +1,145 @@
 [
-  {
-    "id": "q1",
-    "text": "Today is letting go of what you can't control.",
-    "category": "morning"
-  },
-  {
-    "id": "q2",
-    "text": "Discipline is a new chance to grow.",
-    "category": "morning"
-  },
-  {
-    "id": "q3",
-    "text": "Discipline is a new chance to grow.",
-    "category": "morning"
-  },
-  {
-    "id": "q4",
-    "text": "Peace begins when stronger than you think.",
-    "category": "morning"
-  },
-  {
-    "id": "q5",
-    "text": "Peace begins when a new chance to grow.",
-    "category": "morning"
-  },
-  {
-    "id": "q6",
-    "text": "You are built one small step at a time.",
-    "category": "morning"
-  },
-  {
-    "id": "q7",
-    "text": "Your mind is earned through consistency.",
-    "category": "morning"
-  },
-  {
-    "id": "q8",
-    "text": "Peace begins when a new chance to grow.",
-    "category": "morning"
-  },
-  {
-    "id": "q9",
-    "text": "Peace begins when the result of daily effort.",
-    "category": "morning"
-  },
-  {
-    "id": "q10",
-    "text": "Success comes from already within you.",
-    "category": "morning"
-  },
-  {
-    "id": "q11",
-    "text": "Today is already within you.",
-    "category": "morning"
-  },
-  {
-    "id": "q12",
-    "text": "Today is the result of daily effort.",
-    "category": "morning"
-  },
-  {
-    "id": "q13",
-    "text": "Success comes from a new chance to grow.",
-    "category": "morning"
-  },
-  {
-    "id": "q14",
-    "text": "Your mind is earned through consistency.",
-    "category": "morning"
-  },
-  {
-    "id": "q15",
-    "text": "Today is stronger than you think.",
-    "category": "morning"
-  },
-  {
-    "id": "q16",
-    "text": "You are the result of daily effort.",
-    "category": "morning"
-  },
-  {
-    "id": "q17",
-    "text": "Success comes from a new chance to grow.",
-    "category": "morning"
-  },
-  {
-    "id": "q18",
-    "text": "Today is your greatest weapon.",
-    "category": "morning"
-  },
-  {
-    "id": "q19",
-    "text": "Your mind is the result of daily effort.",
-    "category": "morning"
-  },
-  {
-    "id": "q20",
-    "text": "Peace begins when earned through consistency.",
-    "category": "morning"
-  },
-  {
-    "id": "q21",
-    "text": "You are a new chance to grow.",
-    "category": "morning"
-  },
-  {
-    "id": "q22",
-    "text": "You are the result of daily effort.",
-    "category": "morning"
-  },
-  {
-    "id": "q23",
-    "text": "Success comes from stronger than you think.",
-    "category": "morning"
-  },
-  {
-    "id": "q24",
-    "text": "Today is letting go of what you can't control.",
-    "category": "morning"
-  },
-  {
-    "id": "q25",
-    "text": "Your mind is stronger than you think.",
-    "category": "morning"
-  },
-  {
-    "id": "q26",
-    "text": "Success comes from your greatest weapon.",
-    "category": "discipline"
-  },
-  {
-    "id": "q27",
-    "text": "Success comes from stronger than you think.",
-    "category": "discipline"
-  },
-  {
-    "id": "q28",
-    "text": "Success comes from stronger than you think.",
-    "category": "discipline"
-  },
-  {
-    "id": "q29",
-    "text": "You are already within you.",
-    "category": "discipline"
-  },
-  {
-    "id": "q30",
-    "text": "Discipline is stronger than you think.",
-    "category": "discipline"
-  },
-  {
-    "id": "q31",
-    "text": "Peace begins when stronger than you think.",
-    "category": "discipline"
-  },
-  {
-    "id": "q32",
-    "text": "Peace begins when stronger than you think.",
-    "category": "discipline"
-  },
-  {
-    "id": "q33",
-    "text": "Today is already within you.",
-    "category": "discipline"
-  },
-  {
-    "id": "q34",
-    "text": "Discipline is earned through consistency.",
-    "category": "discipline"
-  },
-  {
-    "id": "q35",
-    "text": "Today is a new chance to grow.",
-    "category": "discipline"
-  },
-  {
-    "id": "q36",
-    "text": "Your mind is your greatest weapon.",
-    "category": "discipline"
-  },
-  {
-    "id": "q37",
-    "text": "Discipline is your greatest weapon.",
-    "category": "discipline"
-  },
-  {
-    "id": "q38",
-    "text": "Success comes from built one small step at a time.",
-    "category": "discipline"
-  },
-  {
-    "id": "q39",
-    "text": "Success comes from letting go of what you can't control.",
-    "category": "discipline"
-  },
-  {
-    "id": "q40",
-    "text": "Peace begins when letting go of what you can't control.",
-    "category": "discipline"
-  },
-  {
-    "id": "q41",
-    "text": "Today is a new chance to grow.",
-    "category": "discipline"
-  },
-  {
-    "id": "q42",
-    "text": "Success comes from your greatest weapon.",
-    "category": "discipline"
-  },
-  {
-    "id": "q43",
-    "text": "Success comes from letting go of what you can't control.",
-    "category": "discipline"
-  },
-  {
-    "id": "q44",
-    "text": "Discipline is a new chance to grow.",
-    "category": "discipline"
-  },
-  {
-    "id": "q45",
-    "text": "You are your greatest weapon.",
-    "category": "discipline"
-  },
-  {
-    "id": "q46",
-    "text": "Today is letting go of what you can't control.",
-    "category": "discipline"
-  },
-  {
-    "id": "q47",
-    "text": "Success comes from stronger than you think.",
-    "category": "discipline"
-  },
-  {
-    "id": "q48",
-    "text": "You are a new chance to grow.",
-    "category": "discipline"
-  },
-  {
-    "id": "q49",
-    "text": "You are letting go of what you can't control.",
-    "category": "discipline"
-  },
-  {
-    "id": "q50",
-    "text": "Peace begins when earned through consistency.",
-    "category": "discipline"
-  },
-  {
-    "id": "q51",
-    "text": "Discipline is earned through consistency.",
-    "category": "self_love"
-  },
-  {
-    "id": "q52",
-    "text": "Peace begins when letting go of what you can't control.",
-    "category": "self_love"
-  },
-  {
-    "id": "q53",
-    "text": "Success comes from earned through consistency.",
-    "category": "self_love"
-  },
-  {
-    "id": "q54",
-    "text": "Your mind is the result of daily effort.",
-    "category": "self_love"
-  },
-  {
-    "id": "q55",
-    "text": "Success comes from built one small step at a time.",
-    "category": "self_love"
-  },
-  {
-    "id": "q56",
-    "text": "Your mind is the result of daily effort.",
-    "category": "self_love"
-  },
-  {
-    "id": "q57",
-    "text": "You are built one small step at a time.",
-    "category": "self_love"
-  },
-  {
-    "id": "q58",
-    "text": "You are a new chance to grow.",
-    "category": "self_love"
-  },
-  {
-    "id": "q59",
-    "text": "Peace begins when the result of daily effort.",
-    "category": "self_love"
-  },
-  {
-    "id": "q60",
-    "text": "Success comes from letting go of what you can't control.",
-    "category": "self_love"
-  },
-  {
-    "id": "q61",
-    "text": "Today is earned through consistency.",
-    "category": "self_love"
-  },
-  {
-    "id": "q62",
-    "text": "You are earned through consistency.",
-    "category": "self_love"
-  },
-  {
-    "id": "q63",
-    "text": "Your mind is earned through consistency.",
-    "category": "self_love"
-  },
-  {
-    "id": "q64",
-    "text": "Today is stronger than you think.",
-    "category": "self_love"
-  },
-  {
-    "id": "q65",
-    "text": "Success comes from built one small step at a time.",
-    "category": "self_love"
-  },
-  {
-    "id": "q66",
-    "text": "Today is letting go of what you can't control.",
-    "category": "self_love"
-  },
-  {
-    "id": "q67",
-    "text": "Peace begins when earned through consistency.",
-    "category": "self_love"
-  },
-  {
-    "id": "q68",
-    "text": "Today is earned through consistency.",
-    "category": "self_love"
-  },
-  {
-    "id": "q69",
-    "text": "Success comes from your greatest weapon.",
-    "category": "self_love"
-  },
-  {
-    "id": "q70",
-    "text": "Today is letting go of what you can't control.",
-    "category": "self_love"
-  },
-  {
-    "id": "q71",
-    "text": "Discipline is stronger than you think.",
-    "category": "self_love"
-  },
-  {
-    "id": "q72",
-    "text": "Today is stronger than you think.",
-    "category": "self_love"
-  },
-  {
-    "id": "q73",
-    "text": "Discipline is built one small step at a time.",
-    "category": "self_love"
-  },
-  {
-    "id": "q74",
-    "text": "Peace begins when already within you.",
-    "category": "self_love"
-  },
-  {
-    "id": "q75",
-    "text": "Discipline is a new chance to grow.",
-    "category": "self_love"
-  },
-  {
-    "id": "q76",
-    "text": "Peace begins when built one small step at a time.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q77",
-    "text": "Your mind is a new chance to grow.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q78",
-    "text": "Today is the result of daily effort.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q79",
-    "text": "Success comes from letting go of what you can't control.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q80",
-    "text": "Peace begins when your greatest weapon.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q81",
-    "text": "Peace begins when already within you.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q82",
-    "text": "Today is your greatest weapon.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q83",
-    "text": "You are the result of daily effort.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q84",
-    "text": "Your mind is earned through consistency.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q85",
-    "text": "Discipline is letting go of what you can't control.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q86",
-    "text": "Discipline is a new chance to grow.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q87",
-    "text": "Success comes from your greatest weapon.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q88",
-    "text": "Today is built one small step at a time.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q89",
-    "text": "Your mind is stronger than you think.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q90",
-    "text": "Today is your greatest weapon.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q91",
-    "text": "Today is earned through consistency.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q92",
-    "text": "Discipline is the result of daily effort.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q93",
-    "text": "Discipline is your greatest weapon.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q94",
-    "text": "You are a new chance to grow.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q95",
-    "text": "Your mind is already within you.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q96",
-    "text": "Success comes from stronger than you think.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q97",
-    "text": "Your mind is letting go of what you can't control.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q98",
-    "text": "Discipline is already within you.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q99",
-    "text": "Your mind is the result of daily effort.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q100",
-    "text": "Today is your greatest weapon.",
-    "category": "anxiety"
-  },
-  {
-    "id": "q101",
-    "text": "You are built one small step at a time.",
-    "category": "mindset"
-  },
-  {
-    "id": "q102",
-    "text": "Peace begins when your greatest weapon.",
-    "category": "mindset"
-  },
-  {
-    "id": "q103",
-    "text": "You are letting go of what you can't control.",
-    "category": "mindset"
-  },
-  {
-    "id": "q104",
-    "text": "Your mind is your greatest weapon.",
-    "category": "mindset"
-  },
-  {
-    "id": "q105",
-    "text": "Today is the result of daily effort.",
-    "category": "mindset"
-  },
-  {
-    "id": "q106",
-    "text": "Peace begins when a new chance to grow.",
-    "category": "mindset"
-  },
-  {
-    "id": "q107",
-    "text": "Peace begins when built one small step at a time.",
-    "category": "mindset"
-  },
-  {
-    "id": "q108",
-    "text": "Peace begins when built one small step at a time.",
-    "category": "mindset"
-  },
-  {
-    "id": "q109",
-    "text": "Your mind is the result of daily effort.",
-    "category": "mindset"
-  },
-  {
-    "id": "q110",
-    "text": "Your mind is a new chance to grow.",
-    "category": "mindset"
-  },
-  {
-    "id": "q111",
-    "text": "Peace begins when a new chance to grow.",
-    "category": "mindset"
-  },
-  {
-    "id": "q112",
-    "text": "Your mind is already within you.",
-    "category": "mindset"
-  },
-  {
-    "id": "q113",
-    "text": "Peace begins when your greatest weapon.",
-    "category": "mindset"
-  },
-  {
-    "id": "q114",
-    "text": "Your mind is your greatest weapon.",
-    "category": "mindset"
-  },
-  {
-    "id": "q115",
-    "text": "Peace begins when already within you.",
-    "category": "mindset"
-  },
-  {
-    "id": "q116",
-    "text": "Today is already within you.",
-    "category": "mindset"
-  },
-  {
-    "id": "q117",
-    "text": "Discipline is your greatest weapon.",
-    "category": "mindset"
-  },
-  {
-    "id": "q118",
-    "text": "Today is the result of daily effort.",
-    "category": "mindset"
-  },
-  {
-    "id": "q119",
-    "text": "Today is earned through consistency.",
-    "category": "mindset"
-  },
-  {
-    "id": "q120",
-    "text": "Today is a new chance to grow.",
-    "category": "mindset"
-  },
-  {
-    "id": "q121",
-    "text": "Peace begins when built one small step at a time.",
-    "category": "mindset"
-  },
-  {
-    "id": "q122",
-    "text": "Discipline is built one small step at a time.",
-    "category": "mindset"
-  },
-  {
-    "id": "q123",
-    "text": "Discipline is your greatest weapon.",
-    "category": "mindset"
-  },
-  {
-    "id": "q124",
-    "text": "Discipline is the result of daily effort.",
-    "category": "mindset"
-  },
-  {
-    "id": "q125",
-    "text": "Peace begins when letting go of what you can't control.",
-    "category": "mindset"
-  },
-  {
-    "id": "q126",
-    "text": "Discipline is a new chance to grow.",
-    "category": "success"
-  },
-  {
-    "id": "q127",
-    "text": "Discipline is built one small step at a time.",
-    "category": "success"
-  },
-  {
-    "id": "q128",
-    "text": "Peace begins when earned through consistency.",
-    "category": "success"
-  },
-  {
-    "id": "q129",
-    "text": "Your mind is earned through consistency.",
-    "category": "success"
-  },
-  {
-    "id": "q130",
-    "text": "Discipline is a new chance to grow.",
-    "category": "success"
-  },
-  {
-    "id": "q131",
-    "text": "Peace begins when already within you.",
-    "category": "success"
-  },
-  {
-    "id": "q132",
-    "text": "Your mind is built one small step at a time.",
-    "category": "success"
-  },
-  {
-    "id": "q133",
-    "text": "Peace begins when the result of daily effort.",
-    "category": "success"
-  },
-  {
-    "id": "q134",
-    "text": "Success comes from a new chance to grow.",
-    "category": "success"
-  },
-  {
-    "id": "q135",
-    "text": "You are stronger than you think.",
-    "category": "success"
-  },
-  {
-    "id": "q136",
-    "text": "Peace begins when your greatest weapon.",
-    "category": "success"
-  },
-  {
-    "id": "q137",
-    "text": "Discipline is built one small step at a time.",
-    "category": "success"
-  },
-  {
-    "id": "q138",
-    "text": "Discipline is letting go of what you can't control.",
-    "category": "success"
-  },
-  {
-    "id": "q139",
-    "text": "Discipline is built one small step at a time.",
-    "category": "success"
-  },
-  {
-    "id": "q140",
-    "text": "Discipline is your greatest weapon.",
-    "category": "success"
-  },
-  {
-    "id": "q141",
-    "text": "You are letting go of what you can't control.",
-    "category": "success"
-  },
-  {
-    "id": "q142",
-    "text": "Your mind is letting go of what you can't control.",
-    "category": "success"
-  },
-  {
-    "id": "q143",
-    "text": "Peace begins when built one small step at a time.",
-    "category": "success"
-  },
-  {
-    "id": "q144",
-    "text": "Your mind is letting go of what you can't control.",
-    "category": "success"
-  },
-  {
-    "id": "q145",
-    "text": "Peace begins when the result of daily effort.",
-    "category": "success"
-  },
-  {
-    "id": "q146",
-    "text": "You are earned through consistency.",
-    "category": "success"
-  },
-  {
-    "id": "q147",
-    "text": "Discipline is built one small step at a time.",
-    "category": "success"
-  },
-  {
-    "id": "q148",
-    "text": "Today is stronger than you think.",
-    "category": "success"
-  },
-  {
-    "id": "q149",
-    "text": "Discipline is your greatest weapon.",
-    "category": "success"
-  },
-  {
-    "id": "q150",
-    "text": "Today is the result of daily effort.",
-    "category": "success"
-  }
+  { "id": "q001", "text": "Each morning we are born again. What we do today is what matters most.", "author": "Buddha", "category": "morning" },
+  { "id": "q002", "text": "With the new day comes new strength and new thoughts.", "author": "Eleanor Roosevelt", "category": "morning" },
+  { "id": "q003", "text": "Your future is created by what you do today, not tomorrow.", "author": "Robert Kiyosaki", "category": "morning" },
+  { "id": "q004", "text": "The secret of your future is hidden in your daily routine.", "author": "Mike Murdock", "category": "morning" },
+  { "id": "q005", "text": "Someday is not a day of the week. Begin now.", "author": "Janet Dailey", "category": "morning" },
+  { "id": "q006", "text": "Don't count the days. Make the days count.", "author": "Muhammad Ali", "category": "morning" },
+  { "id": "q007", "text": "You don't have to be great to start, but you have to start to be great.", "author": "Zig Ziglar", "category": "morning" },
+  { "id": "q008", "text": "The sun is a daily reminder that we too can rise again from the darkness.", "author": "S. Ajna", "category": "morning" },
+
+  { "id": "q009", "text": "Discipline is the bridge between goals and accomplishment.", "author": "Jim Rohn", "category": "discipline" },
+  { "id": "q010", "text": "We don't rise to the level of our expectations; we fall to the level of our training.", "author": "Archilochus", "category": "discipline" },
+  { "id": "q011", "text": "Discipline is choosing between what you want now and what you want most.", "author": "Augusta F. Kantra", "category": "discipline" },
+  { "id": "q012", "text": "Through discipline comes freedom.", "author": "Aristotle", "category": "discipline" },
+  { "id": "q013", "text": "Success is nothing more than a few simple disciplines practiced every day.", "author": "Jim Rohn", "category": "discipline" },
+  { "id": "q014", "text": "The pain of discipline weighs ounces. The pain of regret weighs tons.", "author": "Jim Rohn", "category": "discipline" },
+  { "id": "q015", "text": "You will never always be motivated. You have to learn to be disciplined.", "author": "Unknown", "category": "discipline" },
+  { "id": "q016", "text": "All great achievements require time.", "author": "Maya Angelou", "category": "discipline" },
+
+  { "id": "q017", "text": "You yourself, as much as anybody in the entire universe, deserve your love and affection.", "author": "Buddha", "category": "self_love" },
+  { "id": "q018", "text": "To love oneself is the beginning of a lifelong romance.", "author": "Oscar Wilde", "category": "self_love" },
+  { "id": "q019", "text": "Talk to yourself like you would to someone you love.", "author": "Brené Brown", "category": "self_love" },
+  { "id": "q020", "text": "Owning our story and loving ourselves through that process is the bravest thing we will ever do.", "author": "Brené Brown", "category": "self_love" },
+  { "id": "q021", "text": "You are enough. You have always been enough.", "author": "Unknown", "category": "self_love" },
+  { "id": "q022", "text": "The most powerful relationship you will ever have is the relationship with yourself.", "author": "Steve Maraboli", "category": "self_love" },
+  { "id": "q023", "text": "Be yourself. Everyone else is already taken.", "author": "Oscar Wilde", "category": "self_love" },
+  { "id": "q024", "text": "Self-care is not self-indulgence, it is self-preservation.", "author": "Audre Lorde", "category": "self_love" },
+
+  { "id": "q025", "text": "You don't have to control your thoughts. You just have to stop letting them control you.", "author": "Dan Millman", "category": "anxiety" },
+  { "id": "q026", "text": "Anxiety does not empty tomorrow of its sorrows, but only empties today of its strength.", "author": "Charles Spurgeon", "category": "anxiety" },
+  { "id": "q027", "text": "Nothing diminishes anxiety faster than action.", "author": "Walter Anderson", "category": "anxiety" },
+  { "id": "q028", "text": "Almost everything will work again if you unplug it for a few minutes, including you.", "author": "Anne Lamott", "category": "anxiety" },
+  { "id": "q029", "text": "You are braver than you believe, stronger than you seem, and smarter than you think.", "author": "A.A. Milne", "category": "anxiety" },
+  { "id": "q030", "text": "Take a deep breath. It is just a bad day, not a bad life.", "author": "Unknown", "category": "anxiety" },
+  { "id": "q031", "text": "Breathe. You are exactly where you need to be.", "author": "Unknown", "category": "anxiety" },
+  { "id": "q032", "text": "Your present circumstances don't determine where you can go; they merely determine where you start.", "author": "Nido Qubein", "category": "anxiety" },
+
+  { "id": "q033", "text": "Success is not final; failure is not fatal: it is the courage to continue that counts.", "author": "Winston Churchill", "category": "success" },
+  { "id": "q034", "text": "The secret of success is to do the common thing uncommonly well.", "author": "John D. Rockefeller Jr.", "category": "success" },
+  { "id": "q035", "text": "Success usually comes to those who are too busy to be looking for it.", "author": "Henry David Thoreau", "category": "success" },
+  { "id": "q036", "text": "I find that the harder I work, the more luck I seem to have.", "author": "Thomas Jefferson", "category": "success" },
+  { "id": "q037", "text": "Success is walking from failure to failure with no loss of enthusiasm.", "author": "Winston Churchill", "category": "success" },
+  { "id": "q038", "text": "All our dreams can come true, if we have the courage to pursue them.", "author": "Walt Disney", "category": "success" },
+  { "id": "q039", "text": "Don't be afraid to give up the good to go for the great.", "author": "John D. Rockefeller", "category": "success" },
+  { "id": "q040", "text": "There are no shortcuts to any place worth going.", "author": "Beverly Sills", "category": "success" },
+
+  { "id": "q041", "text": "Gratitude turns what we have into enough.", "author": "Unknown", "category": "gratitude" },
+  { "id": "q042", "text": "The more you are grateful for what you have, the more you will have to be grateful for.", "author": "Zig Ziglar", "category": "gratitude" },
+  { "id": "q043", "text": "Gratitude is not only the greatest of virtues, but the parent of all others.", "author": "Cicero", "category": "gratitude" },
+  { "id": "q044", "text": "When you arise in the morning, think of what a precious privilege it is to be alive.", "author": "Marcus Aurelius", "category": "gratitude" },
+  { "id": "q045", "text": "Wear gratitude like a cloak and it will feed every corner of your life.", "author": "Rumi", "category": "gratitude" },
+  { "id": "q046", "text": "Joy is the simplest form of gratitude.", "author": "Karl Barth", "category": "gratitude" },
+  { "id": "q047", "text": "Enough is a feast.", "author": "Buddhist Proverb", "category": "gratitude" },
+  { "id": "q048", "text": "Gratitude can transform common days into thanksgivings.", "author": "William Arthur Ward", "category": "gratitude" },
+
+  { "id": "q049", "text": "Where focus goes, energy flows.", "author": "Tony Robbins", "category": "focus" },
+  { "id": "q050", "text": "The successful warrior is the average man, with laser-like focus.", "author": "Bruce Lee", "category": "focus" },
+  { "id": "q051", "text": "Concentrate all your thoughts upon the work in hand. The sun's rays do not burn until brought to a focus.", "author": "Alexander Graham Bell", "category": "focus" },
+  { "id": "q052", "text": "You will never reach your destination if you stop and throw stones at every dog that barks.", "author": "Winston Churchill", "category": "focus" },
+  { "id": "q053", "text": "Most of what we say and do is not essential. Eliminate it, and you will have more time and tranquility.", "author": "Marcus Aurelius", "category": "focus" },
+  { "id": "q054", "text": "Focus on being productive instead of busy.", "author": "Tim Ferriss", "category": "focus" },
+  { "id": "q055", "text": "Clarity of mind means clarity of passion, too.", "author": "Blaise Pascal", "category": "focus" },
+  { "id": "q056", "text": "The key is not to prioritize what is on your schedule, but to schedule your priorities.", "author": "Stephen Covey", "category": "focus" },
+
+  { "id": "q057", "text": "The oak fought the wind and was broken, the willow bent when it must and survived.", "author": "Robert Jordan", "category": "resilience" },
+  { "id": "q058", "text": "Fall seven times, stand up eight.", "author": "Japanese Proverb", "category": "resilience" },
+  { "id": "q059", "text": "A smooth sea never made a skilled sailor.", "author": "Franklin D. Roosevelt", "category": "resilience" },
+  { "id": "q060", "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.", "author": "Ralph Waldo Emerson", "category": "resilience" },
+  { "id": "q061", "text": "Tough times never last, but tough people do.", "author": "Robert H. Schuller", "category": "resilience" },
+  { "id": "q062", "text": "Rock bottom became the solid foundation on which I rebuilt my life.", "author": "J.K. Rowling", "category": "resilience" },
+  { "id": "q063", "text": "The comeback is always stronger than the setback.", "author": "Unknown", "category": "resilience" },
+  { "id": "q064", "text": "You were given this life because you are strong enough to live it.", "author": "Unknown", "category": "resilience" },
+
+  { "id": "q065", "text": "Sleep is the best meditation.", "author": "Dalai Lama", "category": "sleep" },
+  { "id": "q066", "text": "Rest when you are weary. Refresh and renew yourself, your body, your mind, your spirit.", "author": "Ralph Marston", "category": "sleep" },
+  { "id": "q067", "text": "Each night, when I go to sleep, I die. And the next morning, when I wake up, I am reborn.", "author": "Mahatma Gandhi", "category": "sleep" },
+  { "id": "q068", "text": "Finish each day and be done with it. You have done what you could.", "author": "Ralph Waldo Emerson", "category": "sleep" },
+  { "id": "q069", "text": "Sleep is the golden chain that ties health and our bodies together.", "author": "Thomas Dekker", "category": "sleep" },
+  { "id": "q070", "text": "Let the night carry your worries. Tomorrow is a clean page.", "author": "Unknown", "category": "sleep" },
+  { "id": "q071", "text": "In the depth of stillness, the soul finds its voice.", "author": "Unknown", "category": "sleep" },
+  { "id": "q072", "text": "A rested mind is a powerful mind.", "author": "Unknown", "category": "sleep" },
+
+  { "id": "q073", "text": "Growth is painful. Change is painful. But nothing is as painful as staying stuck somewhere you don't belong.", "author": "Mandy Hale", "category": "growth" },
+  { "id": "q074", "text": "Be not afraid of growing slowly; be afraid only of standing still.", "author": "Chinese Proverb", "category": "growth" },
+  { "id": "q075", "text": "You are allowed to be both a masterpiece and a work in progress simultaneously.", "author": "Sophia Bush", "category": "growth" },
+  { "id": "q076", "text": "The greatest investment you can make is in yourself.", "author": "Warren Buffett", "category": "growth" },
+  { "id": "q077", "text": "You can't go back and change the beginning, but you can start where you are and change the ending.", "author": "C.S. Lewis", "category": "growth" },
+  { "id": "q078", "text": "Life is growth. If we stop growing, technically and spiritually, we are as good as dead.", "author": "Morihei Ueshiba", "category": "growth" },
+  { "id": "q079", "text": "Invest in yourself. It is the best investment you will ever make.", "author": "Unknown", "category": "growth" },
+  { "id": "q080", "text": "The only person you are destined to become is the person you decide to be.", "author": "Ralph Waldo Emerson", "category": "growth" },
+
+  { "id": "q081", "text": "The present moment is the only time over which we have dominion.", "author": "Thich Nhat Hanh", "category": "mindfulness" },
+  { "id": "q082", "text": "Wherever you are, be all there.", "author": "Jim Elliot", "category": "mindfulness" },
+  { "id": "q083", "text": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.", "author": "Buddha", "category": "mindfulness" },
+  { "id": "q084", "text": "The mind is everything. What you think, you become.", "author": "Buddha", "category": "mindfulness" },
+  { "id": "q085", "text": "Be here now.", "author": "Ram Dass", "category": "mindfulness" },
+  { "id": "q086", "text": "Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.", "author": "Thich Nhat Hanh", "category": "mindfulness" },
+  { "id": "q087", "text": "In today's rush, we all think too much, seek too much, want too much and forget about the joy of just being.", "author": "Eckhart Tolle", "category": "mindfulness" },
+  { "id": "q088", "text": "Peace is not the absence of conflict, but the ability to cope with it.", "author": "Unknown", "category": "mindfulness" },
+
+  { "id": "q089", "text": "Courage is not the absence of fear, but the triumph over it.", "author": "Nelson Mandela", "category": "courage" },
+  { "id": "q090", "text": "You miss 100% of the shots you don't take.", "author": "Wayne Gretzky", "category": "courage" },
+  { "id": "q091", "text": "It always seems impossible until it is done.", "author": "Nelson Mandela", "category": "courage" },
+  { "id": "q092", "text": "The most courageous act is still to think for yourself. Aloud.", "author": "Coco Chanel", "category": "courage" },
+  { "id": "q093", "text": "Scared is what you are feeling. Brave is what you are doing.", "author": "Emma Donoghue", "category": "courage" },
+  { "id": "q094", "text": "Fortune favors the bold.", "author": "Virgil", "category": "courage" },
+  { "id": "q095", "text": "Do one thing every day that scares you.", "author": "Eleanor Roosevelt", "category": "courage" },
+  { "id": "q096", "text": "Inaction breeds doubt and fear. Action breeds confidence and courage.", "author": "Dale Carnegie", "category": "courage" },
+
+  { "id": "q097", "text": "The quality of your life is the quality of your relationships.", "author": "Tony Robbins", "category": "relationships" },
+  { "id": "q098", "text": "You are the average of the five people you spend the most time with.", "author": "Jim Rohn", "category": "relationships" },
+  { "id": "q099", "text": "In the end, we will remember not the words of our enemies, but the silence of our friends.", "author": "Martin Luther King Jr.", "category": "relationships" },
+  { "id": "q100", "text": "Connection is why we are here. It is what gives purpose and meaning to our lives.", "author": "Brené Brown", "category": "relationships" },
+  { "id": "q101", "text": "Surround yourself with those who only lift you higher.", "author": "Oprah Winfrey", "category": "relationships" },
+  { "id": "q102", "text": "A true friend is one who overlooks your failures and tolerates your success.", "author": "Doug Larson", "category": "relationships" },
+  { "id": "q103", "text": "The greatest gift of life is friendship, and I have received it.", "author": "Hubert H. Humphrey", "category": "relationships" },
+  { "id": "q104", "text": "We are not human beings having a spiritual experience. We are spiritual beings having a human experience.", "author": "Pierre Teilhard de Chardin", "category": "relationships" },
+
+  { "id": "q105", "text": "To keep the body in good health is a duty, otherwise we shall not be able to keep our mind strong and clear.", "author": "Buddha", "category": "health" },
+  { "id": "q106", "text": "Take care of your body. It is the only place you have to live.", "author": "Jim Rohn", "category": "health" },
+  { "id": "q107", "text": "Your body hears everything your mind says. Stay positive.", "author": "Unknown", "category": "health" },
+  { "id": "q108", "text": "A healthy outside starts from the inside.", "author": "Robert Urich", "category": "health" },
+  { "id": "q109", "text": "Movement is medicine for creating change in a person's physical, emotional, and mental states.", "author": "Carol Welch", "category": "health" },
+  { "id": "q110", "text": "The groundwork for all happiness is good health.", "author": "Leigh Hunt", "category": "health" },
+  { "id": "q111", "text": "Health is not about the weight you lose, but about the life you gain.", "author": "Unknown", "category": "health" },
+  { "id": "q112", "text": "Your health is an investment, not an expense.", "author": "Unknown", "category": "health" },
+
+  { "id": "q113", "text": "The two most important days in your life are the day you are born and the day you find out why.", "author": "Mark Twain", "category": "purpose" },
+  { "id": "q114", "text": "He who has a why to live can bear almost any how.", "author": "Friedrich Nietzsche", "category": "purpose" },
+  { "id": "q115", "text": "Don't ask what the world needs. Ask what makes you come alive, and go do it.", "author": "Howard Thurman", "category": "purpose" },
+  { "id": "q116", "text": "The meaning of life is to find your gift. The purpose of life is to give it away.", "author": "Pablo Picasso", "category": "purpose" },
+  { "id": "q117", "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.", "author": "Mahatma Gandhi", "category": "purpose" },
+  { "id": "q118", "text": "Your life has purpose. Your story is important. Your dreams count. Your voice matters.", "author": "Unknown", "category": "purpose" },
+  { "id": "q119", "text": "The purpose of our lives is to be happy.", "author": "Dalai Lama", "category": "purpose" },
+  { "id": "q120", "text": "You were born with potential. You were born with goodness and trust.", "author": "Rumi", "category": "purpose" },
+
+  { "id": "q121", "text": "Creativity is intelligence having fun.", "author": "Albert Einstein", "category": "creativity" },
+  { "id": "q122", "text": "You can't use up creativity. The more you use, the more you have.", "author": "Maya Angelou", "category": "creativity" },
+  { "id": "q123", "text": "Imagination is more important than knowledge.", "author": "Albert Einstein", "category": "creativity" },
+  { "id": "q124", "text": "Every child is an artist. The problem is how to remain an artist once we grow up.", "author": "Pablo Picasso", "category": "creativity" },
+  { "id": "q125", "text": "The worst enemy to creativity is self-doubt.", "author": "Sylvia Plath", "category": "creativity" },
+  { "id": "q126", "text": "Creativity takes courage.", "author": "Henri Matisse", "category": "creativity" },
+  { "id": "q127", "text": "You cannot use up creativity. The more you use, the more you have.", "author": "Maya Angelou", "category": "creativity" },
+  { "id": "q128", "text": "Think left and think right and think low and think high. Oh, the thinks you can think up if only you try.", "author": "Dr. Seuss", "category": "creativity" }
 ]
