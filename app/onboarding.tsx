@@ -5,13 +5,13 @@ import { useState } from 'react';
 import {
   Dimensions,
   FlatList,
-  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { categoryMeta, type CategoryKey } from '../assets/data/categoryColors';
 import CategoryCard from '../components/CategoryCard';
 import { theme } from '../constants/theme';

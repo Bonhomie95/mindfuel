@@ -1,41 +1,33 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Stack, useRouter, useSegments } from 'expo-router';
+import { Stack, useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { theme } from '../constants/theme';
 
 export default function RootLayout() {
   const [ready, setReady] = useState(false);
-  const [hasOnboarded, setHasOnboarded] = useState(false);
   const router = useRouter();
-  const segments = useSegments();
 
+  // Check once on mount — never re-run on segment changes.
+  // Onboarding calls router.replace('/(tabs)') itself when done.
   useEffect(() => {
     AsyncStorage.getItem('mindfuel_onboarded').then((val) => {
-      setHasOnboarded(val === 'true');
       setReady(true);
+      if (val !== 'true') {
+        router.replace('/onboarding');
+      }
+      // If already onboarded, expo-router's default route (index) loads normally.
     });
   }, []);
-
-  useEffect(() => {
-    if (!ready) return;
-    const inTabs = segments[0] === '(tabs)';
-    const inOnboarding = segments[0] === 'onboarding';
-
-    if (!hasOnboarded && !inOnboarding) {
-      router.replace('/onboarding');
-    } else if (hasOnboarded && inOnboarding) {
-      router.replace('/(tabs)');
-    }
-  }, [ready, hasOnboarded, segments]);
 
   if (!ready) {
     return <View style={{ flex: 1, backgroundColor: theme.colors.bg }} />;
   }
 
   return (
-    <>
+    <SafeAreaProvider>
       <StatusBar style="light" />
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: theme.colors.bg } }}>
         <Stack.Screen name="onboarding" options={{ animation: 'fade' }} />
@@ -49,6 +41,6 @@ export default function RootLayout() {
           options={{ animation: 'slide_from_right' }}
         />
       </Stack>
-    </>
+    </SafeAreaProvider>
   );
 }

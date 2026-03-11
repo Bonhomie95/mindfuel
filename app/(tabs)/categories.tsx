@@ -1,5 +1,6 @@
 import { useRouter } from 'expo-router';
-import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { categoryMeta, type CategoryKey } from '../../assets/data/categoryColors';
 import rawQuotes from '../../assets/data/quotes.json';
 import CategoryCard from '../../components/CategoryCard';

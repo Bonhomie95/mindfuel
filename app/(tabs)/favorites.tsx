@@ -1,5 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
-import { SafeAreaView, FlatList, StyleSheet, Text, View } from 'react-native';
+import { FlatList, StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { type CategoryKey } from '../../assets/data/categoryColors';
 import rawQuotes from '../../assets/data/quotes.json';
 import QuoteCardCompact from '../../components/QuoteCardCompact';
