@@ -8,11 +8,12 @@ export type JournalDepth = 'simple' | 'mood' | 'guided' | 'rich';
 export type Settings = {
   favoriteCategories: string[];
   notificationEnabled: boolean;
-  notificationTime: string; // "HH:mm"
+  notificationTime: string;
   notificationTone: NotificationTone;
   swipeDirection: SwipeDirection;
   journalDepth: JournalDepth;
   affirmationsMode: boolean;
+  dailyLimit: number; // 2 or 3
 };
 
 const DEFAULT_SETTINGS: Settings = {
@@ -20,9 +21,10 @@ const DEFAULT_SETTINGS: Settings = {
   notificationEnabled: false,
   notificationTime: '08:00',
   notificationTone: 'quote',
-  swipeDirection: 'vertical',
+  swipeDirection: 'horizontal', // ← default is now horizontal
   journalDepth: 'mood',
   affirmationsMode: false,
+  dailyLimit: 3,
 };
 
 const KEY = 'mindfuel_settings_v2';

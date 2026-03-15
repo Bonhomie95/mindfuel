@@ -2,19 +2,11 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { useState } from 'react';
-import {
-  Dimensions,
-  FlatList,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import { ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { categoryMeta, type CategoryKey } from '../assets/data/categoryColors';
 import CategoryCard from '../components/CategoryCard';
-import { theme } from '../constants/theme';
+import { useTheme } from '../contexts/ThemeContext';
 import { requestNotificationPermission, scheduleDaily } from '../hooks/useNotifications';
 import { useSettings } from '../hooks/useSettings';
 
@@ -25,14 +17,13 @@ const TIME_LABELS: Record<string, string> = {
   '12:00': '12:00 PM', '20:00': '8:00 PM', '21:00': '9:00 PM',
 };
 
-const { width } = Dimensions.get('window');
-
 const ALL_CATEGORIES = Object.entries(categoryMeta)
   .filter(([k]) => k !== 'default')
   .map(([key, meta]) => ({ key: key as CategoryKey, ...meta }));
 
 export default function Onboarding() {
   const router = useRouter();
+  const { theme } = useTheme();
   const { update } = useSettings();
   const [step, setStep] = useState(0);
   const [selectedCategories, setSelectedCategories] = useState<CategoryKey[]>([]);
@@ -40,11 +31,8 @@ export default function Onboarding() {
   const [selectedTime, setSelectedTime] = useState('08:00');
   const [loading, setLoading] = useState(false);
 
-  const toggleCategory = (key: CategoryKey) => {
-    setSelectedCategories((prev) =>
-      prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]
-    );
-  };
+  const toggleCategory = (key: CategoryKey) =>
+    setSelectedCategories((prev) => prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]);
 
   const finish = async () => {
     setLoading(true);
@@ -53,133 +41,101 @@ export default function Onboarding() {
       notificationEnabled: notifEnabled,
       notificationTime: selectedTime,
     });
-
     if (notifEnabled) {
       const granted = await requestNotificationPermission();
-      if (granted) {
-        await scheduleDaily(selectedTime, {
-          quoteText: 'Fuel your mind today.',
-          tone: 'teaser',
-        });
-      }
+      if (granted) await scheduleDaily(selectedTime, { quoteText: 'Fuel your mind today.', tone: 'teaser' });
     }
-
     await AsyncStorage.setItem('mindfuel_onboarded', 'true');
     router.replace('/(tabs)');
   };
 
+  const c = theme.colors;
+  const r = theme.radius;
+
   return (
-    <LinearGradient colors={[theme.colors.bg, '#0F0A1A', theme.colors.bg]} style={styles.root}>
-      <SafeAreaView style={styles.safe}>
-        {/* Step dots */}
-        <View style={styles.dots}>
+    <LinearGradient colors={[c.bg, theme.dark ? '#0F0A1A' : '#F0EAF5', c.bg]} style={{ flex: 1 }}>
+      <SafeAreaView style={{ flex: 1, paddingHorizontal: 20 }}>
+        {/* Progress dots */}
+        <View style={{ flexDirection: 'row', justifyContent: 'center', gap: 8, paddingTop: 16, paddingBottom: 8 }}>
           {[0, 1, 2].map((i) => (
-            <View key={i} style={[styles.dot, i === step && styles.dotActive]} />
+            <View key={i} style={{ width: i === step ? 24 : 8, height: 8, borderRadius: 4, backgroundColor: i === step ? c.primary : c.border }} />
           ))}
         </View>
 
-        {/* Step 0 - Welcome */}
+        {/* Step 0 – Welcome */}
         {step === 0 && (
-          <View style={styles.step}>
-            <View style={styles.logoZone}>
-              <Text style={styles.logoEmoji}>⚡</Text>
-              <Text style={styles.appName}>MindFuel</Text>
-              <Text style={styles.tagline}>Fuel Your Mind Daily</Text>
+          <View style={{ flex: 1, paddingTop: 16, paddingBottom: 24, gap: 16 }}>
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', gap: 12 }}>
+              <Text style={{ fontSize: 64 }}>⚡</Text>
+              <Text style={{ fontSize: 42, fontWeight: '800', color: c.text, letterSpacing: -1 }}>MindFuel</Text>
+              <Text style={{ fontSize: 16, color: c.textSub, letterSpacing: 0.5 }}>Fuel Your Mind Daily</Text>
             </View>
-            <View style={styles.featureList}>
-              {[
-                ['🌟', 'Daily quotes that inspire action'],
-                ['🔥', 'Streak system to build the habit'],
-                ['📓', 'Journal your thoughts & growth'],
-                ['🔔', 'Personalized daily reminders'],
-              ].map(([icon, text]) => (
-                <View key={text} style={styles.featureRow}>
-                  <Text style={styles.featureIcon}>{icon}</Text>
-                  <Text style={styles.featureText}>{text}</Text>
+            <View style={{ gap: 12 }}>
+              {[['🌟', 'Daily quotes that inspire action'], ['🔥', 'Streak system to build the habit'], ['📓', 'Journal your thoughts & growth'], ['🔔', 'Personalized daily reminders'], ['🎨', '6 beautiful themes to personalize']].map(([icon, text]) => (
+                <View key={text} style={{ flexDirection: 'row', alignItems: 'center', gap: 14, backgroundColor: c.card, padding: 16, borderRadius: r.md, borderWidth: 1, borderColor: c.border }}>
+                  <Text style={{ fontSize: 22 }}>{icon}</Text>
+                  <Text style={{ color: c.text, fontSize: 15, fontWeight: '500', flex: 1 }}>{text}</Text>
                 </View>
               ))}
             </View>
-            <TouchableOpacity style={styles.primaryBtn} onPress={() => setStep(1)}>
-              <Text style={styles.primaryBtnText}>Get Started →</Text>
+            <TouchableOpacity style={{ backgroundColor: c.primary, padding: 18, borderRadius: r.lg, alignItems: 'center' }} onPress={() => setStep(1)}>
+              <Text style={{ color: '#fff', fontSize: 16, fontWeight: '700' }}>Get Started →</Text>
             </TouchableOpacity>
           </View>
         )}
 
-        {/* Step 1 - Choose Categories */}
+        {/* Step 1 – Categories */}
         {step === 1 && (
-          <View style={styles.step}>
-            <Text style={styles.stepTitle}>What fuels you?</Text>
-            <Text style={styles.stepSub}>Pick the topics that resonate most.</Text>
-            <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
-              <View style={styles.grid}>
+          <View style={{ flex: 1, paddingTop: 16, paddingBottom: 24, gap: 16 }}>
+            <View>
+              <Text style={{ fontSize: 28, fontWeight: '800', color: c.text, letterSpacing: -0.5 }}>What fuels you?</Text>
+              <Text style={{ fontSize: 15, color: c.textSub, lineHeight: 22, marginTop: 4 }}>Pick the topics that resonate most.</Text>
+            </View>
+            <ScrollView showsVerticalScrollIndicator={false} style={{ flex: 1 }}>
+              <View style={{ flexDirection: 'row', flexWrap: 'wrap', paddingBottom: 16 }}>
                 {ALL_CATEGORIES.map(({ key, label, gradient, icon }) => (
-                  <CategoryCard
-                    key={key}
-                    label={label}
-                    icon={icon}
-                    gradient={gradient}
-                    onPress={() => toggleCategory(key)}
-                    selected={selectedCategories.includes(key)}
-                  />
+                  <CategoryCard key={key} label={label} icon={icon} gradient={gradient} onPress={() => toggleCategory(key)} selected={selectedCategories.includes(key)} />
                 ))}
               </View>
             </ScrollView>
-            <TouchableOpacity
-              style={[styles.primaryBtn, selectedCategories.length === 0 && styles.primaryBtnDim]}
-              onPress={() => setStep(2)}
-            >
-              <Text style={styles.primaryBtnText}>
-                {selectedCategories.length > 0
-                  ? `Continue (${selectedCategories.length} selected) →`
-                  : 'Skip for now →'}
+            <TouchableOpacity style={{ backgroundColor: c.primary, padding: 18, borderRadius: r.lg, alignItems: 'center', opacity: selectedCategories.length === 0 ? 0.6 : 1 }} onPress={() => setStep(2)}>
+              <Text style={{ color: '#fff', fontSize: 16, fontWeight: '700' }}>
+                {selectedCategories.length > 0 ? `Continue (${selectedCategories.length} selected) →` : 'Skip for now →'}
               </Text>
             </TouchableOpacity>
           </View>
         )}
 
-        {/* Step 2 - Notifications */}
+        {/* Step 2 – Notifications */}
         {step === 2 && (
-          <View style={styles.step}>
-            <Text style={styles.stepTitle}>Never miss a day</Text>
-            <Text style={styles.stepSub}>A daily reminder builds the habit. When should we send it?</Text>
-
-            <View style={styles.notifToggleRow}>
-              <Text style={styles.notifToggleLabel}>Daily reminder</Text>
-              <TouchableOpacity
-                onPress={() => setNotifEnabled(!notifEnabled)}
-                style={[styles.toggle, notifEnabled && styles.toggleOn]}
-              >
-                <View style={[styles.toggleKnob, notifEnabled && styles.toggleKnobOn]} />
+          <View style={{ flex: 1, paddingTop: 16, paddingBottom: 24, gap: 20 }}>
+            <View>
+              <Text style={{ fontSize: 28, fontWeight: '800', color: c.text, letterSpacing: -0.5 }}>Never miss a day</Text>
+              <Text style={{ fontSize: 15, color: c.textSub, lineHeight: 22, marginTop: 4 }}>A daily reminder builds the habit.</Text>
+            </View>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: c.card, padding: 18, borderRadius: r.md, borderWidth: 1, borderColor: c.border }}>
+              <Text style={{ color: c.text, fontSize: 16, fontWeight: '600' }}>Daily reminder</Text>
+              <TouchableOpacity onPress={() => setNotifEnabled(!notifEnabled)}
+                style={{ width: 50, height: 28, borderRadius: 14, backgroundColor: notifEnabled ? c.primary : c.border, justifyContent: 'center', paddingHorizontal: 3 }}>
+                <View style={{ width: 22, height: 22, borderRadius: 11, backgroundColor: '#fff', alignSelf: notifEnabled ? 'flex-end' : 'flex-start' }} />
               </TouchableOpacity>
             </View>
-
             {notifEnabled && (
-              <>
-                <Text style={styles.timeSectionLabel}>Choose a time</Text>
-                <View style={styles.timeGrid}>
+              <View style={{ gap: 12 }}>
+                <Text style={{ color: c.textSub, fontSize: 13, fontWeight: '600', letterSpacing: 0.5, textTransform: 'uppercase' }}>Choose a time</Text>
+                <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10 }}>
                   {TIMES.map((t) => (
-                    <TouchableOpacity
-                      key={t}
-                      onPress={() => setSelectedTime(t)}
-                      style={[styles.timeChip, selectedTime === t && styles.timeChipSelected]}
-                    >
-                      <Text
-                        style={[styles.timeChipText, selectedTime === t && styles.timeChipTextSelected]}
-                      >
-                        {TIME_LABELS[t]}
-                      </Text>
+                    <TouchableOpacity key={t} onPress={() => setSelectedTime(t)}
+                      style={{ paddingHorizontal: 16, paddingVertical: 10, borderRadius: r.full, backgroundColor: selectedTime === t ? c.primaryDim : c.card, borderWidth: 1, borderColor: selectedTime === t ? c.primary : c.border }}>
+                      <Text style={{ color: selectedTime === t ? c.primaryLight : c.textSub, fontSize: 14, fontWeight: selectedTime === t ? '700' : '500' }}>{TIME_LABELS[t]}</Text>
                     </TouchableOpacity>
                   ))}
                 </View>
-              </>
+              </View>
             )}
-
-            <TouchableOpacity
-              style={[styles.primaryBtn, loading && styles.primaryBtnDim]}
-              onPress={finish}
-              disabled={loading}
-            >
-              <Text style={styles.primaryBtnText}>{loading ? 'Setting up...' : 'Start My Journey 🚀'}</Text>
+            <View style={{ flex: 1 }} />
+            <TouchableOpacity style={{ backgroundColor: c.primary, padding: 18, borderRadius: r.lg, alignItems: 'center', opacity: loading ? 0.6 : 1 }} onPress={finish} disabled={loading}>
+              <Text style={{ color: '#fff', fontSize: 16, fontWeight: '700' }}>{loading ? 'Setting up...' : 'Start My Journey 🚀'}</Text>
             </TouchableOpacity>
           </View>
         )}
@@ -187,163 +143,3 @@ export default function Onboarding() {
     </LinearGradient>
   );
 }
-
-const styles = StyleSheet.create({
-  root: { flex: 1 },
-  safe: { flex: 1, paddingHorizontal: 20 },
-  dots: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    gap: 8,
-    paddingTop: 16,
-    paddingBottom: 8,
-  },
-  dot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    backgroundColor: theme.colors.border,
-  },
-  dotActive: {
-    width: 24,
-    backgroundColor: theme.colors.primary,
-  },
-  step: {
-    flex: 1,
-    paddingTop: 16,
-    paddingBottom: 24,
-    gap: 16,
-  },
-  logoZone: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: 12,
-  },
-  logoEmoji: { fontSize: 64 },
-  appName: {
-    fontSize: 42,
-    fontWeight: '800',
-    color: theme.colors.text,
-    letterSpacing: -1,
-  },
-  tagline: {
-    fontSize: 16,
-    color: theme.colors.textSub,
-    letterSpacing: 0.5,
-  },
-  featureList: {
-    gap: 14,
-    paddingHorizontal: 8,
-  },
-  featureRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 14,
-    backgroundColor: theme.colors.card,
-    padding: 16,
-    borderRadius: theme.radius.md,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-  },
-  featureIcon: { fontSize: 22 },
-  featureText: {
-    color: theme.colors.text,
-    fontSize: 15,
-    fontWeight: '500',
-    flex: 1,
-  },
-  primaryBtn: {
-    backgroundColor: theme.colors.primary,
-    padding: 18,
-    borderRadius: theme.radius.lg,
-    alignItems: 'center',
-  },
-  primaryBtnDim: { opacity: 0.6 },
-  primaryBtnText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: '700',
-  },
-  stepTitle: {
-    fontSize: 28,
-    fontWeight: '800',
-    color: theme.colors.text,
-    letterSpacing: -0.5,
-  },
-  stepSub: {
-    fontSize: 15,
-    color: theme.colors.textSub,
-    lineHeight: 22,
-  },
-  scroll: { flex: 1 },
-  grid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    paddingBottom: 16,
-  },
-  notifToggleRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    backgroundColor: theme.colors.card,
-    padding: 18,
-    borderRadius: theme.radius.md,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-  },
-  notifToggleLabel: {
-    color: theme.colors.text,
-    fontSize: 16,
-    fontWeight: '600',
-  },
-  toggle: {
-    width: 50,
-    height: 28,
-    borderRadius: 14,
-    backgroundColor: theme.colors.border,
-    justifyContent: 'center',
-    paddingHorizontal: 3,
-  },
-  toggleOn: { backgroundColor: theme.colors.primary },
-  toggleKnob: {
-    width: 22,
-    height: 22,
-    borderRadius: 11,
-    backgroundColor: '#fff',
-  },
-  toggleKnobOn: { alignSelf: 'flex-end' },
-  timeSectionLabel: {
-    color: theme.colors.textSub,
-    fontSize: 13,
-    fontWeight: '600',
-    letterSpacing: 0.5,
-    textTransform: 'uppercase',
-  },
-  timeGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 10,
-  },
-  timeChip: {
-    paddingHorizontal: 16,
-    paddingVertical: 10,
-    borderRadius: theme.radius.full,
-    backgroundColor: theme.colors.card,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-  },
-  timeChipSelected: {
-    backgroundColor: theme.colors.primaryDim,
-    borderColor: theme.colors.primary,
-  },
-  timeChipText: {
-    color: theme.colors.textSub,
-    fontSize: 14,
-    fontWeight: '500',
-  },
-  timeChipTextSelected: {
-    color: theme.colors.primaryLight,
-    fontWeight: '700',
-  },
-});

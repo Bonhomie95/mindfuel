@@ -29,3 +29,5 @@ export function getCategoryGradient(key: CategoryKey): readonly [string, string]
 export function getCategoryLabel(key: CategoryKey): string {
   return categoryMeta[key]?.label ?? 'General';
 }
+
+export type GradientTuple = readonly [string, string];

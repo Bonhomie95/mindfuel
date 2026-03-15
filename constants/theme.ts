@@ -1,33 +1,6 @@
-export const theme = {
-  colors: {
-    bg: '#08080E',
-    surface: '#0F0F1A',
-    card: '#181826',
-    cardHigh: '#242436',
-    border: '#2D2D45',
-    borderLight: '#3A3A55',
-    primary: '#7C5CFC',
-    primaryLight: '#A78BFA',
-    primaryDim: '#7C5CFC33',
-    accent: '#F472B6',
-    accentDim: '#F472B620',
-    gold: '#FBBF24',
-    goldDim: '#FBBF2430',
-    text: '#F0F0FA',
-    textSub: '#8888AA',
-    textMuted: '#4A4A65',
-    success: '#34D399',
-    danger: '#F87171',
-    dangerDim: '#F8717130',
-  },
-  radius: { xs: 6, sm: 10, md: 16, lg: 22, xl: 30, full: 999 },
-  spacing: { xs: 4, sm: 8, md: 16, lg: 24, xl: 32, xxl: 48 },
-  font: {
-    hero: { fontSize: 34, fontWeight: '700' as const, letterSpacing: -0.8, color: '#F0F0FA' },
-    title: { fontSize: 22, fontWeight: '700' as const, letterSpacing: -0.4, color: '#F0F0FA' },
-    subtitle: { fontSize: 17, fontWeight: '600' as const, color: '#F0F0FA' },
-    body: { fontSize: 15, fontWeight: '400' as const, lineHeight: 23, color: '#F0F0FA' },
-    caption: { fontSize: 13, fontWeight: '400' as const, color: '#8888AA' },
-    tiny: { fontSize: 11, fontWeight: '600' as const, letterSpacing: 0.8, color: '#8888AA' },
-  },
-} as const;
+// All screens use useTheme() from contexts/ThemeContext.tsx
+// This file kept for legacy compatibility only.
+import { THEMES } from './themes';
+export const theme = THEMES['midnight'];
+export type { ThemeShape } from './themes';
+export { THEMES, THEME_LIST, DEFAULT_THEME_ID } from './themes';
